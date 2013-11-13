@@ -1,3 +1,10 @@
 conditionals
 ============
-Flatiron exercise: make all of the tests work
+
+beginner conditionals practice
+
+gem install rspec
+
+cd into each project directory.  
+
+run "rspec"
