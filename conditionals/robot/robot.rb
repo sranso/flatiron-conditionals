@@ -2,7 +2,6 @@
 
 class Robot
   # the robot should return a string "I am #fillthisin"
-
   # a robot should be happy if the day of the month is after the 15th AND
   # the temperature is hotter than 70 degrees and less than or equal to 100.
   # a robot should be very happy if the day of the month is after the 15th AND
@@ -17,7 +16,7 @@ class Robot
   # a robot should be very miserable if its on or before the 15th AND
   # the temperature is 70 degrees or colder
   def temperature(my_temperature)
-    # code goes here
+    if date > 15 && my_t
   end
 
   # if your name begins with the letters a-j
@@ -30,7 +29,11 @@ class Robot
   # if that is less than 50 your robots optimal weight is 1000
 
   def optimal_weight(my_weight, my_name)
-    # code goes here
+    my_name = gets.chomp
+    if my_name(1) < "k"
+      return my_weight == 40
+    else
+      return my_weight == 
   end
   
   # your robots optimal height is your arm_length (estimated) multiplied by 50
